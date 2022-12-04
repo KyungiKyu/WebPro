@@ -11,11 +11,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #f7f7f7;
+  background: #46859b;
   padding: 0 10px;
 }
 .wrapper{
-  background: #fff;
+  background: #0f2229;
   max-width: 450px;
   width: 100%;
   border-radius: 16px;
@@ -115,7 +115,7 @@ body{
 
 /* Users List CSS Start */
 .users{
-  padding: 25px 30px;
+  padding: 18px 30px;
 }
 .users header,
 .users-list a{
@@ -147,7 +147,7 @@ body{
 }
 .users header .logout{
   display: block;
-  background: #333;
+  background: #203a43;
   color: #fff;
   outline: none;
   border: none;
@@ -162,6 +162,7 @@ body{
   position: relative;
   align-items: center;
   justify-content: space-between;
+  color:white;
 }
 .users .search .text{
   font-size: 18px;
@@ -191,14 +192,14 @@ body{
   font-size: 17px;
   cursor: pointer;
   border: none;
-  background: #fff;
-  color: #333;
+  background: #203a43;
+  color: white;
   outline: none;
   border-radius: 0 5px 5px 0;
   transition: all 0.2s ease;
 }
 .users .search button.active{
-  background: #333;
+  background: #203a43;
   color: #fff;
 }
 .search button.active i::before{
@@ -207,6 +208,7 @@ body{
 .users-list{
   max-height: 350px;
   overflow-y: auto;
+  
 }
 :is(.users-list, .chat-box)::-webkit-scrollbar{
   width: 0px;
@@ -215,7 +217,8 @@ body{
   padding-bottom: 10px;
   margin-bottom: 15px;
   padding-right: 15px;
-  border-bottom-color: #f1f1f1;
+  border-bottom-color: #46859b;
+ 
 }
 .users-list a:last-child{
   margin-bottom: 0px;
@@ -288,7 +291,7 @@ body{
 }
 .chat-box .outgoing .details{
   margin-left: auto;
-  max-width: calc(100% - 130px);
+  max-width: calc(100% - 30px);
 }
 .outgoing .details p{
   background: #333;
