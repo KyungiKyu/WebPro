@@ -1,3 +1,4 @@
+// Start the login session
 <?php
   session_start();
   include_once "php/config.php";
@@ -5,18 +6,21 @@
     header("location: login.php");
   }
 ?>
+// Include the header. php.
 <?php include_once "header.php"; ?>
 <body>
   <div class="wrapper">
     <section class="users">
       <header>
         <div class="content">
+          // Fetch users by unique ID
           <?php 
             $sql = mysqli_query($conn, "SELECT * FROM users WHERE unique_id = {$_SESSION['unique_id']}");
             if(mysqli_num_rows($sql) > 0){
               $row = mysqli_fetch_assoc($sql);
             }
           ?>
+          // div with details of the user
           <img src="php/images/<?php echo $row['img']; ?>" alt="">
           <div class="details">
             <span><?php echo $row['fname']. " " . $row['lname'] ?></span>
