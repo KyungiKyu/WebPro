@@ -1,17 +1,21 @@
+// Returns a list of users
 const searchBar = document.querySelector(".search input"),
 searchIcon = document.querySelector(".search button"),
 usersList = document.querySelector(".users-list");
 
+// Show and focus the search icon.
 searchIcon.onclick = ()=>{
   searchBar.classList.toggle("show");
   searchIcon.classList.toggle("active");
   searchBar.focus();
+// Removes the active field from the search bar.
   if(searchBar.classList.contains("active")){
     searchBar.value = "";
     searchBar.classList.remove("active");
   }
 }
 
+// Performs a search.
 searchBar.onkeyup = ()=>{
   let searchTerm = searchBar.value;
   if(searchTerm != ""){
@@ -33,6 +37,7 @@ searchBar.onkeyup = ()=>{
   xhr.send("searchTerm=" + searchTerm);
 }
 
+// Returns a list of users.
 setInterval(() =>{
   let xhr = new XMLHttpRequest();
   xhr.open("GET", "php/users.php", true);
@@ -48,4 +53,3 @@ setInterval(() =>{
   }
   xhr.send();
 }, 500);
-
