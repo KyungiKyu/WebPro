@@ -1,3 +1,4 @@
+// Start the login session.
 <?php 
   session_start();
   include_once "php/config.php";
@@ -5,13 +6,14 @@
     header("location: login.php");
   }
 ?>
+// Displays a list of users
 <?php include_once "header.php"; ?>
 <body>
 
 <div class="flex-container">
   <div>
     <div class="wrapper">
-
+         // Returns a list of users. Out of SQL
           <section class="users mobiledn">
             <header>
               <div class="content">
@@ -32,7 +34,7 @@
             <div class="search">
               <span class="text">Select an user to start chat</span>
               <input type="text" placeholder="Enter name to search...">
-              <button><i class="fas fa-search"></i></button>
+              <button><i name="Suchknopf" class="fas fa-search"></i></button>
             </div>
             <div class="users-list">
 
@@ -71,7 +73,7 @@
         <form action="#" class="typing-area">
           <input type="text" class="incoming_id" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
           <input type="text" name="message" class="input-field" placeholder="Type a message here..." autocomplete="off">
-          <button><i class="fab fa-telegram-plane"></i></button>
+          <button><i name="absenden" class="fab fa-telegram-plane"></i></button>
         </form>
       </section>
     
