@@ -42,6 +42,8 @@ Sichere Datenbankverbindung war anfangs schwieriger als erwartet, da ein öffent
 
 Ziel war die Nutzeranzeige auf allen angebundenen Geräten, jedoch kam es nach der Umsetzung zu Darstellungsschwierigkeiten auf mobilen Endgeräten. Die Deklaration einer zweiten Klasse welche mit einer Mediaquerry auf die Bildschirmgröße reagiert konnte dabei abhilfe leisten. (560 px)
 
+Ein weiteres Ziel, war die Implementierung eines Dark- und Light-Mode zur Erhöhung der Benuzerfreundlichkeit. Ergänzend wurde mithilfe eines Lighthous-Test die Barierefreiheit der Webseite analysiert und die Vorschläge angepasst. Allerdings war das Wechseln zwischen Dark- und Light-Mode aufgrund des Cache des Browsers nicht möglich.       
+
 # Umsetzung in Dateien
 
 ## Index.php
