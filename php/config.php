@@ -1,3 +1,4 @@
+// Connect to the database and use following credentials
 <?php
   $hostname = "localhost";
   $username = "user";
