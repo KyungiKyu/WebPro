@@ -36,13 +36,13 @@ Zur Modulverlinkung zwischen JavaScript und PHP wurde Ajax angewendet.
 
 
 # Herausforderungen
-Einarbeitung in die einzelnen Sprachen und Vorgaben aufgrund fehlendem Vorwissen führte zu einer gewissen Hürde. Gerade im Bezug auf die synchron stattfindenden Vorlesungen musste so viel Eigenarbeit in die Lehre und Verknüpfung unterschiedlicher Sprachen und ... aufgebracht werden. 
+Einarbeitung in die einzelnen Sprachen und Vorgaben aufgrund fehlendem Vorwissen führte zu einer gewissen Hürde. Gerade im Bezug auf die synchron stattfindenden Vorlesungen musste so viel Eigenarbeit in die Lehre und Verknüpfung unterschiedlicher Sprachen aufgebracht werden. 
 
 Sichere Datenbankverbindung war anfangs schwieriger als erwartet, da ein öffentlicher Zugriff angedacht war. Aufgrund der Beschaffenheit von MySQL als nicht getrennte Datenbank zwischen OS und Speicherlayer musste dies jedoch verworfen werden. Dies hätte sonst zu einem Sicherheitsrisiko geführt. 
 
 Ziel war die Nutzeranzeige auf allen angebundenen Geräten, jedoch kam es nach der Umsetzung zu Darstellungsschwierigkeiten auf mobilen Endgeräten. Die Deklaration einer zweiten Klasse welche mit einer Mediaquerry auf die Bildschirmgröße reagiert konnte dabei abhilfe leisten. (560 px)
 
-Ein weiteres Ziel, war die Implementierung eines Dark- und Light-Mode zur Erhöhung der Benuzerfreundlichkeit. Ergänzend wurde mithilfe eines Lighthous-Test die Barierefreiheit der Webseite analysiert und die Vorschläge angepasst. Allerdings war das Wechseln zwischen Dark- und Light-Mode aufgrund des Cache des Browsers nicht möglich.       
+Ein weiteres Ziel, war die Implementierung eines Dark- und Light-Mode zur Erhöhung der Benuzerfreundlichkeit. Ergänzend wurde mithilfe eines Lighthous-Test die Barrierefreiheit der Webseite analysiert und die Vorschläge angepasst. Allerdings war das Wechseln zwischen Dark- und Light-Mode aufgrund des Cache des Browsers nicht möglich.       
 
 # Umsetzung in Dateien
 
