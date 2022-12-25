@@ -1,5 +1,8 @@
 # WebPro
 
+Wir haben uns das Wissen mit Hilfe dieser Website angeignet:
+https://www.codingnepalweb.com/chat-web-application-using-php/
+
 Ziel war die Entwicklung einer webbasierten Kommunikationsplattform, welche die geräteunabhängige Kommunikation ermöglichen soll. 
 
 Zur Datenspeicherung sollte eine MySQL-Datenbank auf einem privat gehosteten Webserver zur Anwendung kommen. 
